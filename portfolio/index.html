@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" href="./image/icon.png" type="image/x-icon"/>
+    <title>Chethan's portfolio website</title>
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./style1.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+   
+
+    <!-- emailjs -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("KFgs3hHbeAcqzxOTu");
+    })();
+    </script>
+
+
+
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, Myself</h3>
+        <h1>CHETHAN KUMAR K</h1>
+        <h3>I'm a <span class="multiple-text"></span></h3>
+       <p><h4>Vivekananda Institute Of Management-Bangalore.</h4></p>
+        <hr>
+        <h3>Java Full Stack Development</h3>
+        <br>
+        <hr>
+        <p><h4>@Jspider-Bangalore</h4></p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/chethan-kumar-k-814b3022a"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/chethan_king_007?utm_source=qr"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Chethan002"
+            ><i class="bx bxl-github"></i
+          ></a>
+          
+        </div>
+        <a href="./image/RxResume_PDFExport_kakarot123343_kumar-c_1685032287 (3).pdf" download class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="./image/s11.jpg" class="s1" alt="home" />
+      </div>
+    </section>
+    <!-- about-section -->
+
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./image/s11.jpg" class="s11" alt="about" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <br>
+        <h3>Java Full Stack Developer</h3><br>
+        <p>
+          I am a passionate Java full stack developer with a solid foundation in both front-end and back-end technologies. 
+          With expertise in Java programming, I specialize in building robust and scalable web applications. My skills extend to crafting responsive user interfaces 
+          using HTML, CSS, and JavaScript frameworks. Leveraging frameworks such as Spring or Hibernate, I excel in developing efficient APIs and integrating with databases. 
+          I am well-versed in software development methodologies and adhere to best practices to deliver high-quality code within project timelines.
+           Collaborative and adaptable, I thrive in cross-functional teams and stay updated with emerging technologies, consistently delivering innovative solutions.
+        </p>
+        <p>
+          In my free time, I enjoy exploring new technologies and tools, and I'm always looking for ways to improve my skills and stay up-to-date with the latest trends in full stack development.
+        </p>
+      </div>
+    </section>
+    <!-- skills section -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <br> <br>
+      <div class="services-container">
+
+        <div class="services-box">
+            <i class="bx bxl-java bx-tada"></i>
+            <h3>Java</h3>
+          </div>
+
+          
+          <div class="services-box">
+            <i class="bx bxl-c-plus-plus bx-tada" style="color:blue"></i>
+            <h3>C++</h3>
+          </div>
+
+
+          <div class="services-box">
+            <i class="bx bxs-data bx-tada" style="color:white"></i>
+            <h3>SQL</h3>
+          </div>
+
+
+        <div class="services-box">
+          <i class="bx bxl-html5 bx-burst" style="color: rgba(210, 26, 21, 0.89)"></i>
+          <h3>HTML</h3>
+        </div>
+
+
+        <div class="services-box">
+          <i
+            class="bx bxl-css3 bx-burst"
+            style="color: rgba(53, 14, 232, 0.89)"></i>
+          <h3>CSS</h3>
+        </div>
+
+        
+        <div class="services-box">
+          <i class="bx bxl-javascript bx-tada" style="color: #f3f116"></i>
+          <h3>javascript</h3>
+        </div>
+
+       
+       
+        <div class="services-box">
+          <i
+            class="bx bxl-github bx-tada"
+            style="color: rgba(1, 9, 10, 0.89)"
+          ></i>
+          <h3>github</h3>
+         
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+
+
+        <div class="portfolio-box">
+          <img src="./image/parmacy.jpeg" alt="project" />
+          <div class="portfolio-layer">
+            <h4>E-commerce-Pharmacy</h4>
+            <p>
+             Using Html,Css,js,React,Router and ReduxToolkit
+            </p>
+            <a href="https://ephemeral-peony-7c8224.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+            <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-e-commerce"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/movie.jpeg" alt="project" />
+          <div class="portfolio-layer">
+            <h4>streamIt-Movie</h4>
+            <p>
+              Using Html,Css,js,React,Router
+            </p>
+            <a href="https://react-movie-stream-app.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+             <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-movie-stream-app"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/news.jpeg" alt="project" />
+          <div class="portfolio-layer">
+            <h4>NewsPaper</h4>
+            <p>
+              Using Html,Css,js,React,Router
+            </p>
+            <a href="https://jolly-swan-5fa8b7.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+            <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-newspaper"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/ecommerce.jpg" alt="project" />
+          <div class="portfolio-layer">
+            <h4>E-Commerce-web</h4>
+            <p>
+              Using Html,Css,js,React,Router,Redux
+            </p>
+            <a href="https://react-ecommerce-site-web.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+            <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-e-commerce-site"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.eD7MpRmuCp5oKFlcdoKmuwHaE8&pid=Api&P=0" alt="project" />
+          <div class="portfolio-layer">
+            <h4>Food Web</h4>
+            <p>
+              Using Html,Css,js,React
+            </p>
+            <a href="https://resilient-choux-cb2626.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+            <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-food-website"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/money.jpg" alt="project" />
+          <div class="portfolio-layer">
+            <h4>Expense Tracker</h4>
+            <p>
+              Using Html,Css,js,React
+            </p>
+            <a href="https://react-expense-tracker-webapp.netlify.app/"><i class="bx bx-link-external"></i>Live</a>
+            <div>
+              <a href="https://github.com/SETHUMATHAVAN77/react-expense-tracker"><i class="bx bx-link-external"></i>Github Link</a>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact-section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div>
+        <div class="input-box">
+            
+          <input type="text" id="name" placeholder="Full Name"  required>
+          <input type="email" id="email" placeholder="Email Address"  required>
+        </div>   
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button class="btn" onclick="sendMail()">Send Message</button>
+      </div>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>copyright &copy; 2023 by Chethankumark | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow"></i></a>
+      </div>
+    </footer>
+
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typedjs -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- custom script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
